@@ -1,0 +1,17 @@
+# Frontend
+ghostclip/node_modules/
+ghostclip/dist/
+ghostclip/.env
+
+# Backend
+ghostbackend/venv/
+ghostbackend/__pycache__/
+ghostbackend/.env
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/

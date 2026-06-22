@@ -1,0 +1,59 @@
+:root {
+  /* Font's */
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-display: 'Outfit', 'Poppins', sans-serif;
+
+  /* Dark theam */
+  --bg-gradient-start: #050816;
+  --bg-gradient-end: #0A0F1F;
+  
+  --accent-1: #8B5CF6;
+  --accent-2: #9333EA;
+  --accent-3: #A855F7;
+  
+  --text-primary: #FFFFFF;
+  --text-secondary: #94A3B8;
+  --text-muted: #64748B;
+  
+  --card-bg: rgba(18, 22, 40, 0.8);
+  --card-border: rgba(255, 255, 255, 0.08);
+  --card-shadow: 0 15px 35px rgba(0, 0, 0, 0.5), 0 0 30px rgba(139, 92, 246, 0.1);
+  --neon-glow: 0 0 20px rgba(139, 92, 246, 0.35);
+  --neon-glow-btn: 0 0 15px rgba(139, 92, 246, 0.5);
+  
+  --input-bg: rgba(255, 255, 255, 0.03);
+  --input-border: rgba(255, 255, 255, 0.08);
+  --input-focus-border: #9333EA;
+  
+  --navbar-bg: rgba(10, 15, 31, 0.7);
+  --navbar-border: rgba(255, 255, 255, 0.05);
+
+  --border-radius-sm: 8px;
+  --border-radius-md: 14px;
+  --border-radius-lg: 18px;
+  --border-radius-xl: 30px;
+  
+  --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+:root.light {
+  /* Light theam */
+  --bg-gradient-start: #F5F3FF;
+  --bg-gradient-end: #EDE9FE;
+  
+  --text-primary: #0F172A;
+  --text-secondary: #475569;
+  --text-muted: #64748B;
+  
+  --card-bg: rgba(255, 255, 255, 0.8);
+  --card-border: rgba(139, 92, 246, 0.15);
+  --card-shadow: 0 15px 35px rgba(139, 92, 246, 0.05), 0 0 30px rgba(139, 92, 246, 0.05);
+  --neon-glow: 0 0 20px rgba(139, 92, 246, 0.2);
+  --neon-glow-btn: 0 0 15px rgba(139, 92, 246, 0.3);
+  --input-bg: rgba(255, 255, 255, 0.9);
+  --input-border: rgba(139, 92, 246, 0.2);
+  --input-focus-border: #8B5CF6;
+  
+  --navbar-bg: rgba(255, 255, 255, 0.7);
+  --navbar-border: rgba(139, 92, 246, 0.10);
+}
